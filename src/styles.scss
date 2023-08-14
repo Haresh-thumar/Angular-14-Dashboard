@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Lobster Two", cursive;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/*--------------------- Navbar -----------------------*/
+.dash-nav {
+  width: 98%;
+  display: inline-flex;
+  padding: 20px 15px 20px 15px;
+  margin: 0;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: rgb(255, 72, 0);
+}
+
+.dash-nav li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.dash-nav li:hover a {
+  background: rgb(255, 221, 0);
+  padding: 15px 20px 15px 20px;
+  color: #000 !important;
+}
+
+.dash-nav li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 20px 20px 20px 20px;
+}
+
+.dash-nav li a:hover {
+  text-decoration: none;
+}
+
+/*--------------------- Display Outlet Container -----------------------*/
+.outlet-container {
+  margin: 20px 15px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid rgba(233, 0, 175, 0.5);
+  border-radius: 10px;
+}
